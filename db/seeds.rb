@@ -21,7 +21,7 @@ puts "5 skills created"
         title: "Portfolio title: #{portfolio_item}",
         subtitle: "Great Service" ,
         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        main_image: "http://placehold.it/600x400",
+        main_image: "https://via.placeholder.com/300/09f.png/fff",
         thumb_image: "http://placehold.it/350x200",
     )
 end
