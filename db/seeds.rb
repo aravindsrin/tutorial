@@ -31,7 +31,7 @@ sub=["Ruby on Rails","Angular","Javascript","Python","Java","Ruby","Android","Ko
         subtitle: sub[portfolio_item] ,
         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         main_image: "https://via.placeholder.com/300/09f.png/fff",
-        thumb_image: "http://placehold.it/350x200",
+        thumb_image: "https://via.placeholder.com/200/09f.png/fff",
     )
 end
 
