@@ -1,3 +1,11 @@
+3.times do |topic|
+    Topic.create!(
+        title: "Topic #{topic}"
+    )
+end
+
+puts "3 Topics created"
+
 10.times do |blog|
     Blog.create!(
         title: "My Blog post #{blog}",
@@ -16,15 +24,18 @@ end
 
 puts "5 skills created"
 
-9.times do |portfolio_item|
+sub=["Ruby on Rails","Angular","Javascript","Python","Java","Ruby","Android","Kotlin"]
+8.times do |portfolio_item|
     Portfolio.create!(
         title: "Portfolio title: #{portfolio_item}",
-        subtitle: "Great Service" ,
+        subtitle: sub[portfolio_item] ,
         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         main_image: "https://via.placeholder.com/300/09f.png/fff",
         thumb_image: "http://placehold.it/350x200",
     )
 end
+
+puts "9 portfolios created"
 
 
 
