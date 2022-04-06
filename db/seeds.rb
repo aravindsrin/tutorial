@@ -37,14 +37,14 @@ end
 
 puts "9 portfolios created"
 
-3.times do |technology|
-    Technology.create!(
-        name: "Technology #{technology}"
-        portfolio_id: Portfolio.last.id
-    )   
-end
+# 3.times do |technology|
+#     Technology.create!(
+#         name: "Technology #{technology}"
+#         portfolio_id: Portfolio.last.id
+#     )   
+# end
 
-puts "3 technologies created"
+# puts "3 technologies created"
 
 
 
